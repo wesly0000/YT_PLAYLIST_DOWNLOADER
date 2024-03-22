@@ -14,6 +14,7 @@ def download_playlist(url, download_path):
             print(f"Error downloading {video.title}: {e}")
 
 if __name__ == "__main__":
+    print('\n\nDownload any playlist from youtube: \n')
     playlist_url = input("Enter the URL of the YouTube playlist: ")
     download_path = input("Enter the download path: ")
 
